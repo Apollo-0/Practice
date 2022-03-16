@@ -4,7 +4,7 @@ print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("CALCULATOR-INATOR!")
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print()
-time.sleep(1)
+time.sleep(2)
 
 print("          \\|||||||||||||||//                          ")
 print("Welcome to calculator-inator")
@@ -28,7 +28,39 @@ time.sleep(2)
 print("as easy and enjoyable as possible! :]")
 print()
 time.sleep(3)
+print("""
+(1) Only use numbers, our program isn't
+    equipped to solve algebra""")
+time.sleep(2)
+print("""
+(2)When you enter the menu you can pick what 
+    setting you would like to use.""")
+time.sleep(2)
+print("""
+(3)If you have entered a setting you didnt intened
+    to access you can type 'BACK' which will take
+    you back to the main menu""")
+print("""
+(4) This technology is only for: addition
+    multiplication, subtraction, and
+    division. Anything else will be deleted.""")
+time.sleep(2)
+print("""
+(5) Don't blame us if anything doesn't work
+    as we are a small company, with limited
+    resources.""")
+time.sleep(3)
+print()
+print("That's all and you can continue! :]")
+print()
 print("############################################")
+
+print()
+print("MAIN MENU")
+print("Welcome to the menu!")
+time.sleep(1)
+print("Pick your setting")
+
 
 
 
