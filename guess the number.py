@@ -9,9 +9,9 @@ while True:
     count = count + 1
 
     #ask for their number
-    print("..............................................")
+    print("......................................................................")
     userguess = int(input("Enter your guess here: "))
-    print("..............................................")
+    print("......................................................................")
     print()
 
     #if their number is too high and tell them
@@ -26,16 +26,20 @@ while True:
 
     #if the number is tha same say so, and break cycle
     if userguess == number:
+        time.sleep(1)
         print("You have guessed correct")
         
         #every time you went through the cyle it added 1 to 'count'
+        print("..................................................................")
+        time.sleep(1)
         print("You've had", count, "attempts.")
         print()
         time.sleep(1)
         print("Goodbye!")
+        print("..................................................................")
         break
 
-    #if they have too many guesse the cycle breaks
+    #if they have too many guesses the cycle breaks
     elif count == 5:
         print("You have ran out of guesses :[")
         print()
