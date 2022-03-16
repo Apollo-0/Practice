@@ -5,13 +5,18 @@ number = random.randint(1, 10)
 count = 0
 import time
 
+print(".......................................")
+print("GUESS THE NUMBER!")
+print(".......................................")
+print()
+time.sleep(2)
+
 while True:
     count = count + 1
 
     #ask for their number
-    print("......................................................................")
+    print()
     userguess = int(input("Enter your guess here: "))
-    print("......................................................................")
     print()
 
     #if their number is too high and tell them
