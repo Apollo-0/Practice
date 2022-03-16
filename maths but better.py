@@ -1,12 +1,37 @@
 #The arithmetic code but better :]
 
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print("CALCULATOR-INATOR!")
-print("Welcome to calculator-inator the number 1")
-print("interactive and sentient calculator")
-time.sleep
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 print()
-print("As long as you follow our simple rules")
-print("everything should go smoothly :]")
+time.sleep(1)
+
+print("          \\|||||||||||||||//                          ")
+print("Welcome to calculator-inator")
+print("          //|||||||||||||||\\                          ")
+time.sleep(1)
+print("the number 1 interactive and sentient calculator.")
+time.sleep(2)
+print()
+print("As long as you follow our simple rules and")
+time.sleep(2)
+print("instructions everything should go smoothly :]")
+print()
+time.sleep(4)
+
+print("############################################")
+print("INSTRUCTIONS!")
+print()
+time.sleep(1)
+print("We only have a few to make your expierience")
+time.sleep(2)
+print("as easy and enjoyable as possible! :]")
+print()
+time.sleep(3)
+print("############################################")
+
+
+
 
 
 print(".................................................")
