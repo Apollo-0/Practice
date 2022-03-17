@@ -56,3 +56,11 @@ while True:
                     print("It's a draw! No one wins")
                     uS = uS + 1
                     cS = cS + 1
+
+                if computer == 'paper':
+                    print("Paper beats rock! You win")
+                    uS = uS + 1
+
+                if computer == 'scissors':
+                    print("Rock beats scissors! Computer wins")
+                    cS = cS + 1
