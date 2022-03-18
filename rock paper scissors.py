@@ -52,6 +52,7 @@ while True:
             if userplay == 'rock':
                 rnd = rnd + 1
 
+                #rock
                 if computer == 'rock':
                     print("It's a draw! No one wins")
                     uS = uS + 1
@@ -65,6 +66,7 @@ while True:
                     print("Rock beats scissors! Computer wins")
                     cS = cS + 1
 
+            #paper
             if userplay == 'paper':
                 rnd = rnd + 1
 
@@ -79,3 +81,23 @@ while True:
 
                 if computer == 'scissors':
                     print("Scissors beat paper! Computer wins")
+                    cS = cS + 1
+
+            #scissors
+            if userplay == 'scissors':
+                rnd = rnd + 1
+
+                if computer == 'rock':
+                    print("Rock beats scissors! Computer wins")
+                    cS = cS + 1
+
+                if computer == 'paper':
+                    print("Scissors beat paper! You win")
+                    uS = uS + 1
+
+                if computer == 'scissors':
+                    print("It's a draw! No one wins")
+                    uS = uS + 1
+                    cS = cS + 1
+
+            #
