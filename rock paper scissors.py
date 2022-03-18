@@ -100,4 +100,23 @@ while True:
                     uS = uS + 1
                     cS = cS + 1
 
-            #
+            #end of round
+            if rnd == 5:
+                print("You have reached 5 rounds!")
+                time.sleep(1)
+                print("Your score was: ",uS,"and the computer score")
+                time.sleep(1)
+                print("was: ",cS,"meaning...")
+                time.sleep(2)
+
+                #winner
+                if uS > cS:
+                    print("You Won!! well done :]")
+
+                if uS < cS:
+                    print("You lost. Oh well :]")
+
+                if uS == cS:
+                    print("It's a draw! :]")
+
+    breakpoint() 
