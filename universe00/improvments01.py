@@ -1,4 +1,5 @@
 #rounding up the total cost
 
-count = round(3.14159, 2)
+count = 46.976
+count = round(count, 2)
 print(count)
