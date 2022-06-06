@@ -30,4 +30,9 @@ while True:
             print()
             print("number 3")
 
-            number1 == input("Your number was:", [])
+            number1 = input("Your number(s) was/were: ")
+
+            if number1 == [1, 2, 3]:
+                print("did it work?")
+                
+breakpoint()
