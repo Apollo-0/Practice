@@ -30,10 +30,12 @@ while True:
         time.sleep(0.5)
         print("Please input your starter currency from the following:")
         time.sleep(0.5)
+        #needed to add 'opt = input()' instead of just 'input()'
         opt = input("'Euros' OR 'Dollars': ")
         print()
         time.sleep(1)
 
+        #then changed this from 'input == 'euros': - to 'opt == 'euros': '
         if opt == 'Euros':
             print("You are currently converting from 'Euros' to 'Pounds'")
             print()
