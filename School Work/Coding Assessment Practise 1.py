@@ -34,7 +34,7 @@ while True:
         print()
         time.sleep(1)
 
-        if opt == 'Euros' or 'euros':
+        if opt == 'Euros':
             print("You are currently converting from 'Euros' to 'Pounds'")
             print()
             time.sleep(1)
@@ -45,9 +45,21 @@ while True:
             total = 1.18 * amount
             total = round(total, 2)
             print(total)
-            break
 
-        if opt == 'Dollars' or 'dollars':
+            print("Would you like to go back to the main menu?")
+            print("Type 'Yes' OR 'No")
+            decide = input("Here: ")
+
+            if decide == 'yes':
+                print("Youve chosen to go back to the start")
+
+            if decide == 'no':
+                print("You have chosen no")
+                print("So i guess we'll see you later!")
+                break
+            
+
+        if opt == 'Dollars':
             print("You are currently converting from 'Dollars' to 'Pounds'")
             print()
             time.sleep(1)
@@ -58,4 +70,8 @@ while True:
             total = 1.20 * amount
             total = round(total, 2)
             print(total)
-            break
+            
+            
+        else:
+            print("Incorrect currency inputed")
+            print("Please try again")
