@@ -44,14 +44,3 @@ while True:
             time.sleep(1)
             print(0.85 * amount)
             break
-
-        if opt == 'Dollars':
-            print("You are currently converting from 'Dollars' to 'Pounds'")
-            print()
-            time.sleep(1)
-            amount = float(input("Enter your amount here: "))
-            time.sleep(0.5)
-            print("This is your amount!")
-            time.sleep(1)
-            print(0.83 * amount)
-            break
