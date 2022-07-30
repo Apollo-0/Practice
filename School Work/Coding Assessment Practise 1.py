@@ -15,7 +15,7 @@ while True:
     print("""
     Select:
     '£' To convert to British Pounds
-    'E' To convert to Europian Euros
+    'E' To convert to EU Euros
     '$' To convert to American Dollars
     """)
     print()
@@ -30,11 +30,11 @@ while True:
         time.sleep(0.5)
         print("Please input your starter currency from the following:")
         time.sleep(0.5)
-        opt = input("'Euros' OR 'Dollars': ")
+        opt = input("'euros' OR 'dollars': ")
         print()
         time.sleep(1)
 
-        if opt == 'Euros':
+        if opt == 'euros':
             print("You are currently converting from 'Euros' to 'Pounds'")
             print()
             time.sleep(1)
@@ -45,22 +45,12 @@ while True:
             total = 1.18 * amount
             total = round(total, 2)
             print(total)
+            time.sleep(2)
 
-            print("Would you like to go back to the main menu?")
-            print("Type 'Yes' OR 'No")
-            decide = input("Here: ")
 
-            if decide == 'yes':
-                print("Youve chosen to go back to the start")
 
-            if decide == 'no':
-                print("You have chosen no")
-                print("So i guess we'll see you later!")
-                break
-            
-
-        if opt == 'Dollars':
-            print("You are currently converting from 'Dollars' to 'Pounds'")
+        if opt == 'dollars':
+            print("You are currently converting from 'dollars' to 'pounds'")
             print()
             time.sleep(1)
             amount = float(input("Enter your amount here: "))
@@ -70,8 +60,10 @@ while True:
             total = 1.20 * amount
             total = round(total, 2)
             print(total)
+            time.sleep(2)
             
-            
+
         else:
             print("Incorrect currency inputed")
             print("Please try again")
+            time.sleep(1)    
